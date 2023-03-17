@@ -18,7 +18,7 @@ const Posts = ({ posts, loading,index }) => {
         <li className='list-group-item'>
         <b> Ques.{index+1}</b> <b>{posts.QuestionID}</b>{"\n"} 
          <MathJax>
-           {posts.Question}
+           {posts.Question} {"$this is on \\ ok$"}
           </MathJax>
         </li>
        
